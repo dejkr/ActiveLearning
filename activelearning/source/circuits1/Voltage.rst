@@ -21,11 +21,9 @@ Voltage division allow us to simplify the task of analyzing a circuit. Voltage D
 .. image:: img/vd2.png
 
 .. figure:: img/Activity_3_Figure_1.png
-   :align: center
+
    
-	figure 1: Voltage division
-
-
+  figure 1: Voltage division
 
 Materials
 _________
