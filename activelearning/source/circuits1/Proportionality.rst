@@ -66,7 +66,7 @@ Procedure
 _________
 
 
-1. Verify the proportionality theorem:
+Verify the proportionality theorem:
 
 	- Construct the circuit of figure 1.
 
