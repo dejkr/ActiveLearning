@@ -41,9 +41,9 @@ Various Resistors:
 Procedure
 _________
 
-a) Construct the circuit as shown in figure 1. Set R1= 4.7 KΩ, R2= 1.5 KΩ and use the fixed power supply 5V pin from extension connector as voltage source Vs. Use the Oscilloscope application to measure the voltages V1 and V2 Repeat this step for R1 = R2 = 4.7 KΩ. and write down the measurements.
+a) Construct the circuit as shown in figure 1. Set R1= 4.7 KΩ, R2= 1.5 KΩ and use the fixed power supply 5V pin from extension connector as voltage source V\ :sub:`s`\. Use the Oscilloscope application to measure the voltages V\ :sub:`1`\ and V\ :sub:`2`\ Repeat this step for R\ :sub:`1`\ = R\ :sub:`2`\ = 4.7 KΩ and write down the measurements.
 
-b) Calculate the voltages V1 and V2 by using the formulas (1) and (2) in each case.
+b) Calculate the voltages V\ :sub:`1`\ and V\ :sub:`2`\ by using the formulas (1) and (2) in each case.
 
 c) Compare the results from steps a and 1.
 

@@ -10,7 +10,7 @@ Circuits I
     ./Kirchhoff.rst
     ./Voltage.rst
     ./Proportionality.rst
-..    ./Thevenin.rst
+    ./Thevenin.rst
 ..    ./ResponseRC.rst
 ..    ./ResponseRL.rst
 ..    ./ResonanceRCL.rst

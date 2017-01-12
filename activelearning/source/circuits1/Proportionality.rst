@@ -28,7 +28,7 @@ In this activity proportionality and superposition theorems are examined by appl
 	:scale: 100%
 	:align: center
 
-The proportionality constant A is sometimes referred to as the gain of a circuit. For the circuit of figure 1, the source voltage is Vin. The response Vout is across the 4.7 KΩ. resistor. The most important result of linearity is superposition.
+The proportionality constant A is sometimes referred to as the gain of a circuit. For the circuit of figure 1, the source voltage is V\ :sub:`in`\. The response V\ :sub:`out`\ is across the 4.7 KΩ. resistor. The most important result of linearity is superposition.
 
 .. figure:: img/Activity_4_Figure_1.png
 	:align: center 
@@ -49,8 +49,6 @@ Figure 2. Circuit with two voltage sources
 	
 	Figure 3. Circuit for response of just one source
 
-
-
 Materials
 _________
 
@@ -70,19 +68,21 @@ Verify the proportionality theorem:
 
 	- Construct the circuit of figure 1.
 
-	- Case 1: For voltage source “Vin=5V” shown on the Figure 1 use the STEMlab voltage pin on extension connector E2_. 
+	- Case 1: For voltage source “V\ :sub:`in`\=5V” shown on the Figure 1 use the STEMlab voltage pin on extension connector E2_. 
 
-	- Case 2: For voltage source “Vin=3.3V” shown on the Figure 1 use the STEMlab voltage pin on extension connector E1_.
+	- Case 2: For voltage source “V\ :sub:`in`\=3.3V” shown on the Figure 1 use the STEMlab voltage pin on extension connector E1_.
 
-	- Case 3: For voltage source “Vin=-3.3V” shown on the Figure 1 use the STEMlab voltage pin on extension connector E2_. 
+	- Case 3: For voltage source “V\ :sub:`in`\=-3.3V” shown on the Figure 1 use the STEMlab voltage pin on extension connector E2_. 
 
 	- Set probe attenuation to x10 (on the oscilloscope probe  and on the Oscilloscope IN1 menu settings)
-	- Accurately measure Vout using the Oscilloscope application.
+
+	- Accurately measure V\ :sub:`out`\ using the Oscilloscope application.
+
 	- You should measure and record the actual fixed power supply voltages as well.
 
 Table 1:
  +---------------+-------------------+----------------+	
- | Vin  in volts)|      Vout(volts)  |  A (no units)  |  
+ | V\ :sub:`in`\ |    V\ :sub:`out`\ |  A 	      |  
  +---------------+-------------------+----------------+
  |	5.0 V    |                   |                |	
  +---------------+-------------------+----------------+
@@ -93,19 +93,19 @@ Table 1:
 
 
 	- Calculate the value of A in each case using equation 1.
-	- Plot a graph with Vin on x-axis and Vout on y-axis.
+	- Plot a graph with V\ :sub:`in`\ on x-axis and V\ :sub:`out`\ on y-axis.
 	- Verifying the Superposition theorem:
 	
 		- Construct the circuit of figure 2. Measure and record the voltage across the 4.7 KΩ. resistor.
 		- Construct the circuit of figure 3. Measure and record the voltage across the 4.7 KΩ. resistor.
 
 .. note::
-	Measuring voltage drop across desired resistor is done in such way that Oscilloscope probe of IN1 is connected to the one side of the resistor and Oscilloscope probe of IN2 is connected to another side of the resistor. Voltage difference VIN1-VIN2 will give an voltage on the measured resistor.
+	Measuring voltage drop across desired resistor is done in such way that Oscilloscope probe of IN1 is connected to the one side of the resistor and Oscilloscope probe of IN2 is connected to another side of the resistor. Voltage difference V\ :sub:`in1`\-V\ :sub:`in2`\ will give an voltage on the measured resistor.
 
 
-- Calculate the total response “Vout” for circuit of figure 2 by adding the responses from measurement of circuit of figure 1  and measurement of circuit of figure 3.
+- Calculate the total response “V\ :sub:`out`\” for circuit of figure 2 by adding the responses from measurement of circuit of figure 1  and measurement of circuit of figure 3.
 
-Vout(figure 2) = Vout(figure 1) + Vout(figure 3) = __________
+V\ :sub:`out`\(figure 2) = V\ :sub:`out`\(figure 1) + V\ :sub:`out`\(figure 3) = __________
 
 
 

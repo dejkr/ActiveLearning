@@ -19,9 +19,9 @@ __________
 
 1. Kirchhoff's Voltage Law states that the algebraic sum of all the voltages around any closed path (loop or mesh) is zero. If we define the voltages across each resistor R1 through R5 as V1 through V5, applying Kirchhoff's voltage law to the first and the second loops in the circuit shown in figure 1 yields: 
 
-Loop 1: -Vs +V1 + V2 +V5 = 0
+Loop 1: -V\ :sub:`s`\ +V1 + V\ :sub:`2`\ +V\ :sub:`5`\ = 0
 
-Loop 2: -V2 +V3 + V4 = 0
+Loop 2: -V\ :sub:`2`\ +V\ :sub:`3`\ + V\ :sub:`4`\ = 0
 
 .. figure:: img/Activity_2_Figure_1.png
 
@@ -29,10 +29,10 @@ Loop 2: -V2 +V3 + V4 = 0
 
 2. Kirchhoff's Current Law states that the algebraic sum of all the currents at any node is zero. If we define the currents through each resistor R1 through R5 as I1 through I5, applying Kirchhoff's current law to the first four nodes in the circuit shown in figure1 yields the following equations; 
 
-	- Node a: -Is + I1 = 0
-	- Node b: -I1 + I2 + I3 = 0
-	- Node c: -I3 + I4 = 0
-	- Node d: -I2 - I4 + I5 = 0
+	- Node a: -I\ :sub:`s`\ + I\ :sub:`1`\ = 0
+	- Node b: -I\ :sub:`1`\ + I\ :sub:`2`\ + I3 = 0
+	- Node c: -I\ :sub:`3`\ + I\ :sub:`4`\ = 0
+	- Node d: -I\ :sub:`2`\ - I\ :sub:`4`\ + I5 = 0
 
 
 Materials
@@ -70,7 +70,7 @@ Step 2.
 
 Step 3. 
 
-	Instead of voltage source “Vs” shown on the Figure 1 use the STEMlab voltage pins on extension connector E2_. Connect the 5V pin to node **a** and connect node **e** to **GND** pin.
+	Instead of voltage source “V\ :sub:`s`\” shown on the Figure 1 use the STEMlab voltage pins on extension connector E2_. Connect the 5V pin to node **a** and connect node **e** to **GND** pin.
 
 
 .. figure:: img/Activity_2_Figure_2.png
@@ -111,9 +111,9 @@ Step 4.
 
 	 After clicking “done” the measurements of the mean value of the IN1 and IN2 will be shown. Use this measurement to calculate voltage on R1.
 
-VR1 = MEAN( IN1 ) - MEAN( IN2 )
+V\ :sub:`R1`\ = MEAN( IN1 ) - MEAN( IN2 )
 
-IR1 = VR1 / R1.
+I\ :sub:`R1`\ = V\ :sub:`R1`\ / R\ :sub:`1`\.
 
 .. note:: 
 	
@@ -123,21 +123,21 @@ Step 5.
 
 	Record the measurements in a tabular form containing the measured voltage and current values as shown below.
 
- +---------------+-------------------+----------------+-------------+-------------+	
- |	Branch   |  current/voltage  |   V [volts ]   |   I  [mA]   |     R [KΩ]  |    
- +---------------+-------------------+----------------+-------------+-------------+
- |	V1, I1   |                   |                |             |             |	
- +---------------+-------------------+----------------+-------------+-------------+
- |	V2, I2   |                   |                |             |             |
- +---------------+-------------------+----------------+-------------+-------------+
- |	V3, I3   |                   |                |             |             |
- +---------------+-------------------+----------------+-------------+-------------+
- |	V4, I4   |                   |                |             |             |
- +---------------+-------------------+----------------+-------------+-------------+
- |	V5, I5   |                   |                |             |             |
- +---------------+-------------------+----------------+-------------+-------------+
- |	Vs, Is   |                   |                |             |             |
- +---------------+-------------------+----------------+-------------+-------------+
+ +------------------------------+-------------------+----------------+-------------+-------------+	
+ |	Branch                  |  current/voltage  |   V [volts ]   |   I  [mA]   |     R [KΩ]  |    
+ +------------------------------+-------------------+----------------+-------------+-------------+
+ | V\ :sub:`1`\, I\ :sub:`1`\   |                   |                |             |             |	
+ +------------------------------+-------------------+----------------+-------------+-------------+
+ | V\ :sub:`2`\, I\ :sub:`2`\   |                   |                |             |             |
+ +------------------------------+-------------------+----------------+-------------+-------------+
+ | V\ :sub:`3`\, I\ :sub:`3`\   |                   |                |             |             |
+ +------------------------------+-------------------+----------------+-------------+-------------+
+ | V\ :sub:`4`\, I\ :sub:`4`\   |                   |                |             |             |
+ +------------------------------+-------------------+----------------+-------------+-------------+
+ | V\ :sub:`5`\, I\ :sub:`5`\   |                   |                |             |             |
+ +------------------------------+-------------------+----------------+-------------+-------------+
+ | V\ :sub:`s`\ ,I\ :sub:`s`\   |                   |                |             |             |
+ +------------------------------+-------------------+----------------+-------------+-------------+
  
  Step 6. 
 
