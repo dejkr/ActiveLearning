@@ -9,7 +9,7 @@ Circuits I
     ./Phase.rst
     ./Kirchhoff.rst
     ./Voltage.rst
-..    ./Proportionality.rst
+    ./Proportionality.rst
 ..    ./Thevenin.rst
 ..    ./ResponseRC.rst
 ..    ./ResponseRL.rst
