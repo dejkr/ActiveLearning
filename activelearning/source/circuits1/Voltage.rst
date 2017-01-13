@@ -30,6 +30,7 @@ _________
 
 Red Pitaya STEMlab 125-14 or STEMlab 125-10 
 Various Resistors: 
+
  - 470 Ω, 
  - 1 KΩ, 
  - 4.7 KΩ,
