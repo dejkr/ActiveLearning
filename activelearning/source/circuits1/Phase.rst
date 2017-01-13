@@ -98,7 +98,7 @@ Where A and B are real numbers.
 
 The phase relationship of the current relative to the voltage is then:
 
-**θ = tan^-1 (B/A)** (5)
+θ = tan \ :sup:`-1`\  (B/A) (5)
 
 Materials
 _________

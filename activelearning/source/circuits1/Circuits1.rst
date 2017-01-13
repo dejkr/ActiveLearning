@@ -11,7 +11,7 @@ Circuits I
     ./Voltage.rst
     ./Proportionality.rst
     ./Thevenin.rst
-..    ./ResponseRC.rst
+    ./ResponseRC.rst
 ..    ./ResponseRL.rst
 ..    ./ResonanceRCL.rst
 ..    ./ParallelLCResonance.rst
