@@ -81,12 +81,12 @@ _________
 
 .. figure::   img/Activity_6_Figure_4.png
 
-Figure 4. Breadboard diagram of RC circuit R1 = 2.2 KΩ and C1 = 1 µF. 
+Figure 4. Breadboard diagram of RC circuit  R\ :sub:`1`\ = 2.2 KΩ and C1 = 1 µF. 
 
 
 .. figure::   img/Activity_6_Figure_5.png
 
-Figure 5. Breadboard RC circuit R1 = 2.2 KΩ and C1 = 1 µF. 
+Figure 5. Breadboard RC circuit R\ :sub:`1`\ = 2.2 KΩ and C1 = 1 µF. 
 
 Start the Oscilloscope & Signal Generator application. 
 
@@ -144,9 +144,11 @@ c. Pulse width less than 5t (for example 1t): In this case the capacitor does no
 Figure 9: Measuring the time constant t for OUT1 pulse width =  1t
 
 
-4. Repeat the procedure using R1 = 10 KΩ and C1 = 0.01 µF and record the measurements.
+4. Repeat the procedure using  R\ :sub:`1`\ = 10 KΩ and C\ :sub:`1`\= 0.01 µF and record the measurements.
 Questions:
+
 1. Calculate the time constant using equation (1) and compare it to the measured value from 3a. Repeat this for other set of R and C values.
+
 2. Discuss the effects of changing component values.
 
 
