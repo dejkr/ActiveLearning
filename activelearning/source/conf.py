@@ -269,7 +269,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'doctut.tex', u'RedPitaya',
-     u'electronic active learning'),
+     u'electronic active learning','howto'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
