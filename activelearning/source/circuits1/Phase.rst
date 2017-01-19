@@ -18,7 +18,9 @@ __________
 
 We will investigate the concept of phase by looking at sine waves and passive components that will allow us to observe phase shift with real signals. First we will look at a sin wave and the phase term in the argument. You should be familiar with the equation:
 
-**f(t)= sin(ω  t + θ)** (1)
+.. math::
+	
+	f(t)= sin(ωt + θ)
 
 ω sets the frequency of the sin wave as t progresses and θ defines an offset in time which defines a phase shift in the function.
 
@@ -51,7 +53,9 @@ When there are 2 sine waves for example displayed on a scope the phase angle can
 Phase
 _____
 
-**θ=∆t/T 360° = ∆t/T 2pi(rads) = ∆tf2pi(rads)** (2)
+.. math::
+
+	θ=∆t/T 360° = ∆t/T 2π(rads) = ∆tf2π(rads)
 
 Where T is the period of the sinusoid.
 
@@ -65,15 +69,21 @@ Generally, capacitors are made of two conductive plates separated by a dielectri
 
 The basic rule for capacitors is that the voltage across the capacitor will not change unless there is a current flowing into the capacitor. The rate of change of the voltage (dv/dt) depends on the magnitude of the current. For an ideal capacitor the current i(t) is related to the voltage by the following formula:
 
-**i(t) = C dv/dt** (3)
+.. math::
+
+	i(t) = C \frac{dv}{dt}
 
 Right now, the full implications of this is beyond the scope of this lab. You will observe this behavior in later labs. The impedance of a capacitor is a function of frequency. The impedance goes down with frequency conversely the lower the frequency the higher the impedance.
 
-**Zc = 1/(j ω C)** (4)
+.. math::
+
+	Z_c = \frac{1}{j ω C}
 
 Where ω is defined as the angular velocity:
 
-**ω=2pi f**
+.. math::
+	
+	ω=2πf
 
 One subtle thing about equation 4 is the imaginary operator j. When we looked at a resistor for example there was no imaginary operator in the equation for the impedance. The sinusoidal current through a resistor and the voltage across a resistor have no time offset between them because the relationship is completely real. The only difference is the amplitude. The voltage is sinusoidal and is in phase with the current sinusoid. This is not the case with a capacitor. When we look at the waveform of a sinusoidal voltage across a capacitor it will be time shifted compared to the current through the capacitor. The imaginary operator, j, is responsible for this. Looking at figure 3 we can see that the current waveform is at a peak ( maximum ) when the slope of the voltage waveform ( time rate of change dv/dt ) is its highest.
 
@@ -88,7 +98,9 @@ You probably have seen circuits made entirely from resistors. These circuits hav
 
 To calculate the theoretical phase angle between voltage and current in an RC circuit:
 
-**i(t) = v(t)/Zc**
+.. math::
+
+	i(t) = {v(t)}{Zc}
 
 Where Zc is the total circuit impedance = I
 
@@ -98,7 +110,9 @@ Where A and B are real numbers.
 
 The phase relationship of the current relative to the voltage is then:
 
-θ = tan \ :sup:`-1`\  (B/A) (5)
+.. math::
+
+	θ = tan^{-1}(B/A)
 
 Materials
 _________

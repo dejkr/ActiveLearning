@@ -25,7 +25,9 @@ Time Constant (t): A measure of time required for certain changes in voltages an
 
 The time constant of an RC circuit is the product of equivalent capacitance and the Thévenin resistance as viewed from the terminals of the equivalent capacitor. 
 
-t = R*C (1) 
+.. math::
+	
+	t = R*C 
 
 A Pulse is a voltage or current that changes from one level to another and back again. If a waveform's high time equals its low time it is called a square wave. The length of each cycle of a pulse is its period (T). 
 
@@ -33,7 +35,9 @@ The pulse width (tp) of an ideal square wave is equal to half the time period.
 
 The relation between pulse width and frequency is then given by, 
 
-f = 1/(2t_p) (2) 
+.. math::
+	
+	f = \frac{1}{2t_p} 
 
 .. image:: img/Activity_6_Figure_1.png
 
@@ -41,7 +45,8 @@ Figure 1: Series RC circuit.
 
 From Kirchhoff's laws, it can be shown that the charging voltage V\ :sub:`C`\ (t) across the capacitor is given by: 
 
-V\ :sub:`C`\ (t) =V( 1- e\ :sup:`-t/RC`\)  t >= 0(3) 
+.. math::	
+	V_C (t) = V( 1- e^{- \frac{t}{RC}})  ;t >= 0 
 
 where, V is the applied source voltage to the circuit for t = 0. RC = t is the time constant. The response curve is increasing and is shown in figure 2. 
 
@@ -51,9 +56,11 @@ Figure 2: Capacitor charging for Series RC circuit to a step input with time axi
 
 The discharge voltage for the capacitor is given by: 
 
-V\ :sub:`C`\ (t) = V\ :sub:`o`\ e\ :sup:`-t/RC`\ t >= 0 (4) 
+.. math::
 
-Where Vo is the initial voltage stored in capacitor at t = 0, and RC = t is time constant. The response curve is a decaying exponential as shown in figure 3. 
+	V_C (t) = V_o e^{-\frac{t}{RC}} ;t >= 0 
+
+Where V\ :sub:`0`\  is the initial voltage stored in capacitor at t = 0, and RC = t is time constant. The response curve is a decaying exponential as shown in figure 3. 
 
 .. image:: img/Activity_6_Figure_3.png
 
@@ -75,18 +82,19 @@ Capacitors:
 Procedure
 _________
 
-1. Set up the circuit shown in figure 4 on your solderless breadboard with the component values R1 = 2.2 KΩ and C1 = 1 µF. 
--Connect the Oscilloscope & Signal generator probes as is shown in Figure 5.
--Set the oscilloscope attenuation to x1.
+1. Set up the circuit shown in figure 4 on your solderless breadboard with the component values R\ :sub:`1`\ = 2.2 KΩ and C\ :sub:`1`\ = 1 µF. 
+
+	-Connect the Oscilloscope & Signal generator probes as is shown in figure 5.
+	-Set the oscilloscope attenuation to x1.
 
 .. figure::   img/Activity_6_Figure_4.png
 
-Figure 4. Breadboard diagram of RC circuit  R\ :sub:`1`\ = 2.2 KΩ and C1 = 1 µF. 
+Figure 4. Breadboard diagram of RC circuit  R\ :sub:`1`\ = 2.2 KΩ and C\ :sub:`1`\ = 1 µF. 
 
 
 .. figure::   img/Activity_6_Figure_5.png
 
-Figure 5. Breadboard RC circuit R\ :sub:`1`\ = 2.2 KΩ and C1 = 1 µF. 
+Figure 5. Breadboard RC circuit R\ :sub:`1`\ = 2.2 KΩ and C\ :sub:`1`\ = 1 µF. 
 
 Start the Oscilloscope & Signal Generator application. 
 
@@ -101,20 +109,31 @@ a. Pulse width larger than 5t (for example 15t) : Set the frequency of OUT1 outp
 
 Notice: Calculate frequency of OUT1 so that the pulse width of OUT1 is equal to desired 
 value of x*t by equation (2):
-fout = 1/(2*x*t) 
+
+.. math::
+
+	f_out = \frac{1}{2*x*t} 
 
 For example: If we want to have pulse width of your OUT1 square signal equals 5*t 
 (t - time constant of RC circuit  t = R*C)
-t=R*C=2.2E3*1E-6=2.2E-3
-fout = 1/(2*5*2.2E-3) = 45Hz
+
+.. math::
+
+	t = R*C = 2.2E3*1E-6 = 2.2E-3
+
+.. math::
+
+	f_out  = \frac{1}{2*5*2.2E-3} = 45Hz
 
 Determine the time constant from the waveforms obtained on the screen if you can. If you cannot obtain the time constant easily, explain possible reasons. 
 
 For determining time constant use “CURSOR” option.
-Open CURSOR menu and select all four cursors: X1,X2,Y1,Y2. 
-For  Y cursor select  IN2 for source.
+Open CURSOR menu and select all four cursors: X1, X2, Y1, Y2. 
+For Y cursor select IN2 for source.
 Control/Move cursors using an left click+hold mouse control on the cursor marker(an arrow on the end of the cursor line).
-pp
+
+
+
 Adjust the **time base** using **horizontal +/-** control until you have at approximately two cycles of the square wave on the display grid. 
 
 .. figure::   img/Activity_6_Figure_6.png
@@ -147,8 +166,8 @@ Figure 9: Measuring the time constant t for OUT1 pulse width =  1t
 4. Repeat the procedure using  R\ :sub:`1`\ = 10 KΩ and C\ :sub:`1`\= 0.01 µF and record the measurements.
 Questions:
 
-1. Calculate the time constant using equation (1) and compare it to the measured value from 3a. Repeat this for other set of R and C values.
+	1. Calculate the time constant using equation (1) and compare it to the measured value from 3a. Repeat this for other set of R and C values.
 
-2. Discuss the effects of changing component values.
+	2. Discuss the effects of changing component values.
 
 

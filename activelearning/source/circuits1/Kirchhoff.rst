@@ -19,9 +19,15 @@ __________
 
 1. Kirchhoff's Voltage Law states that the algebraic sum of all the voltages around any closed path (loop or mesh) is zero. If we define the voltages across each resistor R1 through R5 as V1 through V5, applying Kirchhoff's voltage law to the first and the second loops in the circuit shown in figure 1 yields: 
 
-Loop 1: -V\ :sub:`s`\ +V1 + V\ :sub:`2`\ +V\ :sub:`5`\ = 0
+Loop 1
 
-Loop 2: -V\ :sub:`2`\ +V\ :sub:`3`\ + V\ :sub:`4`\ = 0
+.. math::
+		- V_s + V_1 + V_2 + V_5 = 0
+
+Loop 2 
+
+.. math::
+		- V_2 + V_3 + V_4 = 0
 
 .. figure:: img/Activity_2_Figure_1.png
 
@@ -29,10 +35,29 @@ Loop 2: -V\ :sub:`2`\ +V\ :sub:`3`\ + V\ :sub:`4`\ = 0
 
 2. Kirchhoff's Current Law states that the algebraic sum of all the currents at any node is zero. If we define the currents through each resistor R1 through R5 as I1 through I5, applying Kirchhoff's current law to the first four nodes in the circuit shown in figure1 yields the following equations; 
 
-	- Node a: -I\ :sub:`s`\ + I\ :sub:`1`\ = 0
-	- Node b: -I\ :sub:`1`\ + I\ :sub:`2`\ + I3 = 0
-	- Node c: -I\ :sub:`3`\ + I\ :sub:`4`\ = 0
-	- Node d: -I\ :sub:`2`\ - I\ :sub:`4`\ + I5 = 0
+*Node a:
+	
+.. math::		
+
+	- I_s + I_1 = 0
+	
+*Node b: 
+
+.. math::		
+
+	- I_1 + I_2 + I_3 = 0
+	
+*Node c: 
+
+.. math::		
+
+	- I_3 + I_4 = 0
+	
+*Node d: 
+	
+.. math::	
+
+	- I_2 - I_4 + I_5 = 0
 
 
 Materials

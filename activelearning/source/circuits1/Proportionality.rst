@@ -24,9 +24,9 @@ In this activity proportionality and superposition theorems are examined by appl
 1. 
 	The Proportionality Theorem states that the response of a circuit is proportional to the source acting on the circuit. This is also known as Linearity. The proportionality constant A relates the input voltage to the output voltage as:
 
-.. image:: img/pc1.png
-	:scale: 100%
-	:align: center
+.. math:: 
+	
+	V_{out} = A×V_∈ 
 
 The proportionality constant A is sometimes referred to as the gain of a circuit. For the circuit of figure 1, the source voltage is V\ :sub:`in`\. The response V\ :sub:`out`\ is across the 4.7 KΩ. resistor. The most important result of linearity is superposition.
 

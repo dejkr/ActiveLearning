@@ -16,9 +16,11 @@ __________
 
 Voltage division allow us to simplify the task of analyzing a circuit. Voltage Division allows us to calculate what fraction of the total voltage across a series string of resistors is dropped across any one resistor. For the circuit of Figure 1, the Voltage Division formulas are:
 
-.. image:: img/vd1.png
+.. math::
 
-.. image:: img/vd2.png
+	V_1 = V_S \frac{R_1}{R_1 + R_2}
+
+	V_2 = V_S \frac{R_2}{R_1 + R_2}
 
 .. figure:: img/Activity_3_Figure_1.png
 

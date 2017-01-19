@@ -12,8 +12,8 @@ Circuits I
     ./Proportionality.rst
     ./Thevenin.rst
     ./ResponseRC.rst
-..    ./ResponseRL.rst
-..    ./ResonanceRCL.rst
+    ./ResponseRL.rst
+    ./ResonanceRCL.rst
 ..    ./ParallelLCResonance.rst
 ..    ./Filters.rst
 ..    ./BandPassFilters.rst
