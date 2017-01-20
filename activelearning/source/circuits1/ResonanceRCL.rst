@@ -184,7 +184,11 @@ After the measurements are done you should get the frequency response of your ci
 
 
 - Compare measurements and calculation. If there is any difference try to explain why.
-(hint. parasitic ).
+
+.. hint:: 
+
+	parasitic
+
 
 The Bode analyzer application will make a frequency sweep in such way it will generate sine signal on OUT1 within frequency range selected by us(in settings menu).
 IN1 input signal is directly connected to OUT1 following that IN1=Vin. IN2 is connected on the other side of the RLC circuit and from that IN2=Vout. Bode analyzer application will then for each frequency step take the ratio of IN1/IN2 and calculate frequency response. 

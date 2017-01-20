@@ -44,7 +44,7 @@ Now change θ to π/2 radians or 90° for the second waveform. We see the origin
 .. figure:: img/Activity_1_Figure_2.png
 	:align: center
 
-	figure 2: green - SIN(t)  orange - SIN(t+pi/4)
+	figure 2: green - SIN(t)  orange - SIN(t+ π/4)
 
 Theta (**θ**) is the time offset or phase portion of equation 1. The phase angle defines the offset in time and vice versa. Equation 2 shows the relationship. We happened to choose a particularly common offset of 90°. The phase offset between a sine and cosine wave is 90°. The offset angle is almost always not 90. As a matter of fact is often a function of frequency.
 
@@ -100,7 +100,7 @@ To calculate the theoretical phase angle between voltage and current in an RC ci
 
 .. math::
 
-	i(t) = {v(t)}{Zc}
+	i(t) = \frac{v(t)}{Zc}
 
 Where Zc is the total circuit impedance = I
 
@@ -112,7 +112,7 @@ The phase relationship of the current relative to the voltage is then:
 
 .. math::
 
-	θ = tan^{-1}(B/A)
+	θ = tan^{-1}(\frac{B}{A})
 
 Materials
 _________
