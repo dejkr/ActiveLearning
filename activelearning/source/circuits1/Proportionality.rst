@@ -26,7 +26,7 @@ In this activity proportionality and superposition theorems are examined by appl
 
 .. math:: 
 	
-	V_{out} = A×V_∈ 
+	V_{out} = A \cdot V_∈ 
 
 The proportionality constant A is sometimes referred to as the gain of a circuit. For the circuit of figure 1, the source voltage is V\ :sub:`in`\. The response V\ :sub:`out`\ is across the 4.7 KΩ. resistor. The most important result of linearity is superposition.
 

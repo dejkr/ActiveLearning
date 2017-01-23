@@ -62,22 +62,23 @@ Various Resistors:
 
 Procedure
 _________
+
 1. Verifying the Thévenin's theorem:
 
 a) Construct the circuit of figure 1 using the following component values:
-
+ 
 R1 = 330 Ω
-
+ 
 R2 = 100 Ω
-
+ 
 R3 = 100 Ω
-
+ 
 R4 = 330 Ω
-
+ 
 R5 = 1 KΩ
-
+ 
 Rl = 1.5 KΩ
-
+ 
 Vs = +3.3V 
 
 .. note:: 
@@ -117,23 +118,33 @@ Select “enable” button.
 
 Figure 6: Thevenin Equivalent Construction 
 
-f) With R\ :sub:`L`\ set to the 1.5 KΩ used in step b) measure the V\ :sub:`L`\ for the equivalent circuit and compare it to the V\ :sub:`L`\ obtained in step b). This verifies the Thévenin theorem.
-g) Optional: Repeat steps 1 b) to 1 f) for R\ :sub:`L`\ = 2.2 KΩ
+f) With R\ :sub:`L`  set to the 1.5 KΩ used in step b) measure the V\ :sub:`L` for the equivalent circuit and compare it to the V\ :sub:`L` obtained in step b). This verifies the Thévenin theorem.
+
+g) Optional: Repeat steps 1 b) to 1 f) for R\ :sub:`L` = 2.2 KΩ
 	
-	2. Verifying the Maximum Power Transfer theorem:
+
+2. Verifying the Maximum Power Transfer theorem:
+	
 a) Construct the circuit as in figure 7 using the following values:
+
 Vs = +3.3 V
-R1 = R2 = 100 Ω
-R3 = 1 KΩ
+
+R\ :sub:`1`\  = R\ :sub:`2`\  = 100 Ω
+
+R\ :sub:`3`\  = 1 KΩ
+
 R\ :sub:`L`\ = combinations of 1 KΩ and 100 Ω resistors ( figure 8 )
 
 .. figure::  img/Activity_5_Figure_7.png
 
 Figure 8. Rl configurations
 
-d) Calculate the power for each load resistor value using 
-P\ :sub:`L`\=V\ :sub:`L`\\ :sup:`L`\/R\ :sub:`L`\. 
-Then, interpolate between your measurements to calculate the load resistor value corresponding to the maximum power (P\ :sub:`l max`\). This value should be equal to R\ :sub:`TH`\ of circuit in figure 7 with respect to load terminals.
+d) Calculate the power for each load resistor value using;
+
+.. math::
+	P_L = \frac{V_L^{2}}{R_L}
+
+Then, interpolate between your measurements to calculate the load resistor value corresponding to the maximum power (P\ :sub:`l max`\). This value should be equal to R\ :sub:`TH` of circuit in figure 7 with respect to load terminals.
 
 Questions
 _________

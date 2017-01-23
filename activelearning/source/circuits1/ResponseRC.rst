@@ -27,7 +27,7 @@ The time constant of an RC circuit is the product of equivalent capacitance and 
 
 .. math::
 	
-	t = R*C 
+	t = R \cdot C 
 
 A Pulse is a voltage or current that changes from one level to another and back again. If a waveform's high time equals its low time it is called a square wave. The length of each cycle of a pulse is its period (T). 
 
@@ -112,18 +112,18 @@ value of x*t by equation (2):
 
 .. math::
 
-	f_out = \frac{1}{2*x*t} 
+	f_out = \frac{1}{2 \cdot x \cdot t} 
 
 For example: If we want to have pulse width of your OUT1 square signal equals 5*t 
-(t - time constant of RC circuit  t = R*C)
+(t - time constant of RC circuit  t = R * C)
 
 .. math::
 
-	t = R*C = 2.2E3*1E-6 = 2.2E-3
+	t = R \cdot C = 2.2E3 \cdot 1E-6 = 2.2E-3
 
 .. math::
 
-	f_out  = \frac{1}{2*5*2.2E-3} = 45Hz
+	f_out  = \frac{1}{2 \cdot 5 \cdot 2.2E-3} = 45Hz
 
 Determine the time constant from the waveforms obtained on the screen if you can. If you cannot obtain the time constant easily, explain possible reasons. 
 

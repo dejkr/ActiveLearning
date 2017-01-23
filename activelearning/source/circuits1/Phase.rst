@@ -55,7 +55,7 @@ _____
 
 .. math::
 
-	θ=∆t/T 360° = ∆t/T 2π(rads) = ∆tf2π(rads)
+	θ=\frac{∆t}{T} 360° = \frac{∆t}{T} 2π(rads) = ∆tf2π(rads)
 
 Where T is the period of the sinusoid.
 

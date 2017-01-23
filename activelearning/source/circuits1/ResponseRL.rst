@@ -75,7 +75,7 @@ We know that signal on input IN2 is voltage across resistor V :sub: `R` which is
 
 .. math::
 	
-	IN2 = R*I_L 
+	IN2 = R \cdot I_L 
 
 From that it follows that when observing signal IN2 we are observing current through inductor, and only thing we need to have in mind is scaling factor - resistance R.
      
