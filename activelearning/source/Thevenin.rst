@@ -29,7 +29,7 @@ One of the principal uses of Thévenin's theorem is to replace a large portion o
 
 	Figure 1.
 
-.. figure::   img/Activity_5_Figure_2.png
+.. figure::   img/Activity_5_Figure_2.png - this is a wrong figure - replace
 
 	Figure 2: Thévenin Equivalent Circuit of Figure 1
 
@@ -152,4 +152,9 @@ _________
 1. Calculate the percentage error difference between the load voltages obtained for circuits of figure 1 and figure 2.
 2. Using Voltage Division for circuit of figure 2, calculate V\ :sub:`L`\. Compare it to the measured values. Explain any differences.
 3. Calculate the maximum power transmitted to the load Rl obtained for the circuit of figure 3.
+
+Remarks from a professor
+____________________________
+Theorem of Thevenin is one of the most important theorems in electrical engineering. Bear in mind however that it is valid only for linear circuits. That includes also circuits with capacitors and coils but not circuits with diodes, transistors etc.  
+And one more thing: don't try to use Thevenins equivalent circuit to calculate power dissipation of the circuitry. It is however fine for calculation of power on the load resistor.  
 
